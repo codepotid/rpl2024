@@ -1,0 +1,6 @@
+//rand
+$detik = date('s'); //detik
+$menit = date('i'); //menit
+$year = date('Y');
+$urutan = rand(1, 100);
+$randomNumber = intval($detik . $menit . $year . $urutan);
