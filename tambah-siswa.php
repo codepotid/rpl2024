@@ -15,7 +15,7 @@
         <h2 class="text-center mb-4">TUTORIAL CRUD SEDERHANA - <i>PHP NATIVE</i></h2>
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <a href="<?= base_url(); ?>">&laquo; Back To Home</a>
+                <a class="btn btn-danger mb-2" href="index.php">&laquo; Back To Home</a>
                 <div class="card">
                     <div class="card-header">
                         TAMBAH SISWA
@@ -36,11 +36,11 @@
                             <div class="form-group">
                                 <label>Jenis Kelamin</label>
                                 <select class="form-control" name="jk" required="required">
-                                    <option disabled selected>--Pilih Alat Kelaminmu--</option>
+                                    <option selected disabled>--Pilih Alat Kelaminmu--</option>
                                     <hr>
                                     <option value="L">Laki - laki</option>
                                     <option value="P">Perempuan</option>
-                                    <option value="<?= NULL; ?>">Rahasia</option>
+                                    <option value="lainnya">Rahasia</option>
                                 </select>
                             </div>
 
