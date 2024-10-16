@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+// include 'config.php';
 include 'koneksi.php';
 
 // Mendapatkan ID dari parameter GET
@@ -24,7 +24,8 @@ if ($result && $result->num_rows > 0) {
             unlink($filePath); // Hapus file foto
         }
 
-        header("location:" . base_url());
+        // header("location:" . base_url());
+        header("location:index.php");
     } else {
         echo "DATA GAGAL DIHAPUS!";
     }
