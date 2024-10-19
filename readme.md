@@ -2,7 +2,7 @@
 
 ## Nama database `pn_projectrpl24`
 
-Berikut adalah Codingannya pn_projectrpl24.sql dan jika nama db nya anda ganti tidak apa apa... tapi sesuaikan di file koneksi.php
+Berikut adalah Codingannya `pn_projectrpl24.sql` dan jika nama db nya anda ganti tidak apa apa... tapi sesuaikan di file koneksi.php
 
 ```
 -- phpMyAdmin SQL Dump
